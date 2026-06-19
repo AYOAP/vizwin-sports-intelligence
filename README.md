@@ -1,14 +1,14 @@
-# Referee — Sports Decision Intelligence
+# Vizwin Sports Intelligence
 
-**A player-prop analytics platform that scores betting-market opportunities from data, lines, and game context — and turns them into clear, confidence-rated picks.**
+**A player-prop analytics platform that scores sports-market opportunities from data, lines, and game context — and turns them into clear, confidence-rated picks.**
 
-> 📌 This repository is a **public case study**. It documents the product, the analytics engine, and the design. Built as an independent product venture under the Vizwin umbrella.
+> 📌 This repository is a **public case study**. It documents the product, the analytics engine, and the design. Vizwin Sports Intelligence is the sports-focused sibling of [Vizwin Retail Decision Intelligence](https://github.com/AYOAP/vizwin) — the same philosophy (turn noisy data into a defensible decision), applied to sports.
 
 ---
 
 ## The idea
 
-Sports prop markets are noisy and overwhelming: dozens of players, multiple sportsbooks, lines that move, and context (injuries, matchups, recent form) scattered everywhere. Referee's job is to **compress that into a decision** — a scored, explained opinion on a given player prop, plus tools to combine picks and track results.
+Sports prop markets are noisy and overwhelming: dozens of players, multiple sportsbooks, lines that move, and context (injuries, matchups, recent form) scattered everywhere. The job is to **compress that into a decision** — a scored, explained opinion on a given player prop, plus tools to combine picks and track results.
 
 The product direction deliberately evolved from a simple "betting assistant" into a broader **sports decision-intelligence** system: the value isn't a hot take, it's a *repeatable, data-driven scoring process* with confidence and transparency.
 
@@ -20,7 +20,7 @@ The product direction deliberately evolved from a simple "betting assistant" int
 | **Parlay Calculator (hero)** | Build a slate of picks, auto-suggest combinations, and compute combined AI odds before committing |
 | **The Vizwin Vision** | Per-prop writeup — game info, injury status, and a plain-English rationale for the score |
 | **Report Card** | Turns a user's pick history into letter-grade analytics (discipline, consistency, chasing longshots) instead of a raw P&L blur |
-| **Multi-book aware** | Designed around major sportsbooks (DK / MGM / CZ / FD / UD) for line comparison |
+| **Multi-book aware** | Designed around major sportsbooks for line comparison |
 
 ## Engineering & design highlights
 
@@ -31,7 +31,7 @@ The product direction deliberately evolved from a simple "betting assistant" int
 
 ## What I took from building it
 
-This project was a deep lesson in **noisy-signal product discipline**: data pipelines, confidence scoring, consumer UX, API integration, and — most importantly — *product-market-fit honesty* about where a data product genuinely adds value versus where it's just noise dressed up as insight.
+A deep lesson in **noisy-signal product discipline**: data pipelines, confidence scoring, consumer UX, API integration, and — most importantly — *product-market-fit honesty* about where a data product genuinely adds value versus where it's just noise dressed up as insight.
 
 ## Tech stack
 
@@ -39,4 +39,4 @@ This project was a deep lesson in **noisy-signal product discipline**: data pipe
 
 ---
 
-<sub>Built by Austin Stevens — Applied AI & Data Analytics, University of Tennessee, Knoxville. Product/architecture case study; full source kept private. Referee is an analytics & decision-support tool, not betting advice.</sub>
+<sub>Built by Austin Stevens — Applied AI & Data Analytics, University of Tennessee, Knoxville. Product/architecture case study; full source kept private. Vizwin Sports Intelligence is an analytics & decision-support tool, not betting advice.</sub>
